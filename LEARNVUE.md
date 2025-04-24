@@ -36,3 +36,27 @@ const state = reactive({
 Truy cập và thay đổi giá trị trực tiếp
 state.count -> console.log(state.count) // 10
 state.count++ -> console.log(state.count) // 11
+
+## SS4: Events
+* Trong vuejs viết events sẽ khác: 
+1. @ (ngắn gọn)
+2. v-on 
+
+* Các sự kiện DOM phổ biến:
+1. Chuột: click, dblclick, mousedown, mouseup, mousemove, mouseover, mouseout
+2. Bàn phím: keyup, keydown, keypress
+3. Form: submit, change, input, focus, blur
+4. Cảm ứng: touchstart, touchmove, touchend
+
+* Modifier Sự Kiện
+Vue cung cấp các "modifier" để xử lý các trường hợp phổ biến:
+<!-- Chỉ kích hoạt một lần -->
+<button @click.once="handleClick">Click once</button>
+<!-- Ngăn hành vi mặc định -->
+<form @submit.prevent="onSubmit">...</form>
+<!-- Dừng lan truyền sự kiện -->
+<button @click.stop="handleClick">Stop propagation</button>
+<!-- Chỉ kích hoạt khi nhấn phím Enter -->
+<input @keyup.enter="submit">
+<!-- Kết hợp nhiều modifier -->
+<form @submit.prevent.stop="onSubmit">...</form>
