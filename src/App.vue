@@ -1,12 +1,14 @@
 <script setup>
 import ss1Vue from "./sessions/ss1-components/components/ss1.vue"
 import ss2Vue from "./sessions/ss2-dynamic value/ss2.vue"
+import ss3Vue from "./sessions/ss3-reactive & ref/ss3.vue"
 </script>
 
 <template>
   <div id="app">
-    <ss1Vue />
-    <ss2Vue />
+    <!-- <ss1Vue /> -->
+    <!-- <ss2Vue /> -->
+    <ss3Vue />
   </div>
 </template>
 
