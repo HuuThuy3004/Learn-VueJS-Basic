@@ -1,16 +1,3 @@
-<template>
-    <div class="ss1">
-        <h1>Welcome to Your Vue.js App</h1>
-        <p>This is a simple Vue.js application.</p>
-        <p>Version: 1.0.0</p>
-        <p>Author: Your Name</p>
-        <p>License: MIT</p>
-        <p>Year: {{ new Date().getFullYear() }}</p>
-        <p>Copyright: © {{ new Date().getFullYear() }} Your Name. All rights reserved.</p>
-        <p>License Text: This project is licensed under the MIT License. See the LICENSE file for details.</p>
-    </div>
-</template>
-
 <script>
 export default {
     name: 'ss1',
@@ -28,6 +15,19 @@ export default {
     }
 };
 </script>
+
+<template>
+    <div class="ss1">
+        <h1>Welcome to Your Vue.js App</h1>
+        <p>This is a simple Vue.js application.</p>
+        <p>Version: 1.0.0</p>
+        <p>Author: Your Name</p>
+        <p>License: MIT</p>
+        <p>Year: {{ new Date().getFullYear() }}</p>
+        <p>Copyright: © {{ new Date().getFullYear() }} Your Name. All rights reserved.</p>
+        <p>License Text: This project is licensed under the MIT License. See the LICENSE file for details.</p>
+    </div>
+</template>
 
 <style>
     .ss1 {
