@@ -60,3 +60,12 @@ Vue cung cấp các "modifier" để xử lý các trường hợp phổ biến:
 <input @keyup.enter="submit">
 <!-- Kết hợp nhiều modifier -->
 <form @submit.prevent.stop="onSubmit">...</form>
+
+## SS5: V-model (two-way binding)
++ Two-way binding là một kỹ thuật lập trình phát triển giao diện người dùng, trong đó dữ liệu đồng bộ hóa tự động giữa model và view.
+  Khi dữ liệu thay đổi trong model, thì view nó sẽ tự động cập nhật và ngược lại.
+  Đặc điểm chính của two-way binding:
+  - Tự động đồng bộ hóa dữ liệu giữa model và view
+  - Giảm thiểu code phải viết để cập nhật UI theo trạng thái của ứng dụng
+  - Dễ dàng quản lý trạng thái của ứng dụng
++ 
