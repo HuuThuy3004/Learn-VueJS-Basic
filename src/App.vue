@@ -5,7 +5,8 @@
 // import ss4Vue from "./sessions/ss4-events/ss4.vue"
 // import ss5Vue from "./sessions/ss5-v-model/ss5.vue"
 // import ss6Vue from "./sessions/ss6-router/ss6.vue"
-import ss7Vue from "./sessions/ss7-props/ss7.vue"
+// import ss7Vue from "./sessions/ss7-props/ss7.vue"
+import ss8Vue from "./sessions/ss8-list-rendering/ss8.vue"
 </script>
 
 <template>
@@ -16,7 +17,8 @@ import ss7Vue from "./sessions/ss7-props/ss7.vue"
     <!-- <ss4Vue /> -->
     <!-- <ss5Vue /> -->
     <!-- <ss6Vue /> -->
-    <ss7Vue />
+    <!-- <ss7Vue /> -->
+    <ss8Vue />
   </div>
 </template>
 

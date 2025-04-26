@@ -78,3 +78,6 @@ Props (properties) trong Vue.js là cơ chế cho phép truyền dữ liệu gi�
 Truyền dữ liệu theo dạng kiểu binhthuong và kiểu function
 1. Kiểu binhthuong: <ChildComponent :name-variable="value-variable" />
 2. Kiểu function: <ChildComponent @name-function="value-function" />
+
+## SS8: List Rendering
+Sử dụng: v-for="name_variable in variable_array" :key="name_variable.id"
