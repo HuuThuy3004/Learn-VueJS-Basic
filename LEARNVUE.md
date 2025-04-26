@@ -68,4 +68,4 @@ Vue cung cấp các "modifier" để xử lý các trường hợp phổ biến:
   - Tự động đồng bộ hóa dữ liệu giữa model và view
   - Giảm thiểu code phải viết để cập nhật UI theo trạng thái của ứng dụng
   - Dễ dàng quản lý trạng thái của ứng dụng
-+ 
++ V-model là một directive (chỉ thị) dùng để tạo ràng buộc hai chiều (two-way binding) giữa các form input và state (trạng thái) của ứng dụng. Đây là một cách thuận tiện để đồng bộ hóa dữ liệu giữa giao diện người dùng và dữ liệu trong component Vue của bạn.
