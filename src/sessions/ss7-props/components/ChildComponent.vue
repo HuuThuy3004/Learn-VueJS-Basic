@@ -7,10 +7,12 @@
     <p>User-age: {{ props.user.age }}</p>
     <p>User-nationally: {{ props.user.nationally }}</p>
     <p>User-birthday: {{ props.user.birthday }}</p>
+    <p>Function: <button @click="clickGreet">Click Greet</button></p>
   </div>
 </template>
 
 <script setup>
+// Kiểu binhthuong:
 // Cách 1:
 let props = defineProps(['count', 'name', 'isActive', 'user']);
 // Cách 2:
@@ -37,6 +39,12 @@ let props = defineProps(['count', 'name', 'isActive', 'user']);
 //     default: () => ({ name: 'Khách', age: 0, nationally: 'Unknown', birthday: 'Unknown' })
 //   },
 // });
+
+// Kiểu function:
+let emit = defineEmits(['greet']);
+let clickGreet = () => {
+  emit('greet', 'Im HuuThuy', 10);
+};
 </script>
 
 <style>
@@ -64,5 +72,30 @@ p {
 p:hover {
   text-decoration: underline;
   transform: scale(1.02);
+}
+
+button {
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #42b983;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #36a76a;
+  transform: scale(1.05);
+}
+button:active {
+  transform: scale(0.95);
+}
+button:focus {
+  outline: none;
+}
+button:focus-visible {
+  outline: 2px solid #42b983;
+  outline-offset: 2px;
 }
 </style>

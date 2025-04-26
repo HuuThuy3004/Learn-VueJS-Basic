@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ChildComponent :count="count" :name="name" :isActive="isActive" :user="user"/>
+    <ChildComponent :count="count" :name="name" :isActive="isActive" :user="user" @greet="greet"/>
     <!-- or -->
     <!-- <ChildComponent :count="count" :name="name" isActive :user="user"/> -->
   </div>
@@ -23,7 +23,11 @@ let user = reactive({
   nationally: 'American',
   birthday: '1995-01-01',
 });
-
+// Type Function
+let greet = (argStr, argNum) => {
+  console.log('Hello, World!', argStr);
+  count.value += argNum;
+};
 </script>
 
 <style></style>
