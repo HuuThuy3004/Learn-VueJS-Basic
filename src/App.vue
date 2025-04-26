@@ -6,7 +6,8 @@
 // import ss5Vue from "./sessions/ss5-v-model/ss5.vue"
 // import ss6Vue from "./sessions/ss6-router/ss6.vue"
 // import ss7Vue from "./sessions/ss7-props/ss7.vue"
-import ss8Vue from "./sessions/ss8-list-rendering/ss8.vue"
+// import ss8Vue from "./sessions/ss8-list-rendering/ss8.vue"
+import ss9Vue from "./sessions/ss9-conditional/ss9.vue"
 </script>
 
 <template>
@@ -18,7 +19,8 @@ import ss8Vue from "./sessions/ss8-list-rendering/ss8.vue"
     <!-- <ss5Vue /> -->
     <!-- <ss6Vue /> -->
     <!-- <ss7Vue /> -->
-    <ss8Vue />
+    <!-- <ss8Vue /> -->
+    <ss9Vue />
   </div>
 </template>
 

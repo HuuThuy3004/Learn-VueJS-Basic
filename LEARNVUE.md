@@ -81,3 +81,7 @@ Truyền dữ liệu theo dạng kiểu binhthuong và kiểu function
 
 ## SS8: List Rendering
 Sử dụng: v-for="name_variable in variable_array" :key="name_variable.id"
+
+## SS9: Conditional
+Sử dụng: v-if, v-else-if, v-else
+Cú pháp: v-if="conditional", v-else-if="conditional"
