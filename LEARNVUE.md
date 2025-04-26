@@ -69,3 +69,6 @@ Vue cung cấp các "modifier" để xử lý các trường hợp phổ biến:
   - Giảm thiểu code phải viết để cập nhật UI theo trạng thái của ứng dụng
   - Dễ dàng quản lý trạng thái của ứng dụng
 + V-model là một directive (chỉ thị) dùng để tạo ràng buộc hai chiều (two-way binding) giữa các form input và state (trạng thái) của ứng dụng. Đây là một cách thuận tiện để đồng bộ hóa dữ liệu giữa giao diện người dùng và dữ liệu trong component Vue của bạn.
+
+## SS6: Router hoạt động như nào?
+Router trong Vue.js (cụ thể là Vue Router) hoạt động như một hệ thống điều hướng cho ứng dụng Single Page Application (SPA). 
