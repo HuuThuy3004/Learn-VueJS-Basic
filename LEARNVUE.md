@@ -72,3 +72,6 @@ Vue cung cấp các "modifier" để xử lý các trường hợp phổ biến:
 
 ## SS6: Router hoạt động như nào?
 Router trong Vue.js (cụ thể là Vue Router) hoạt động như một hệ thống điều hướng cho ứng dụng Single Page Application (SPA). 
+
+## SS7: Props
+Props (properties) trong Vue.js là cơ chế cho phép truyền dữ liệu giữa component parent và component child
