@@ -85,3 +85,6 @@ Sử dụng: v-for="name_variable in variable_array" :key="name_variable.id"
 ## SS9: Conditional
 Sử dụng: v-if, v-else-if, v-else
 Cú pháp: v-if="conditional", v-else-if="conditional"
+
+## SS10: Computed
+Sử dụng: computed()
