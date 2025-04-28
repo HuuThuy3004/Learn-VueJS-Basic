@@ -135,3 +135,10 @@ onUnmounted()  Trước khi component bị xóa      Gỡ event, clear timer, d�
 ## SS14: WatchEffect
 
 là một API thuộc Composition API, được dùng để theo dõi các biến phản ứng (reactive) và tự động chạy lại một hàm bất cứ khi nào những giá trị đó thay đổi.
+
+## SS15: Provide và Inject
+
+dùng để chia sẻ tài nguyên giữa component
+cú pháp: 
+provide(key: string, value: any) -> tạo K-V để tạo key cho bên component khác sử dụng
+inject(key: string) -> lấy K-V để show V

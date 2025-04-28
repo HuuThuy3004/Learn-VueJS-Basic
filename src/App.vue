@@ -11,7 +11,8 @@
 // import ss10Vue from "./sessions/ss10-computed/ss10.vue"
 // import ss12Vue from "./sessions/ss12-onMounted/ss12.vue"
 // import ss13Vue from "./sessions/ss13-onUnmounted/ss13.vue"
-import ss14Vue from "./sessions/ss14-watchEffect/ss14.vue"
+// import ss14Vue from "./sessions/ss14-watchEffect/ss14.vue"
+import ss15Vue from "./sessions/ss15-provide-inject/ss15.vue"
 </script>
 
 <template>
@@ -28,7 +29,8 @@ import ss14Vue from "./sessions/ss14-watchEffect/ss14.vue"
     <!-- <ss10Vue /> -->
     <!-- <ss12Vue /> -->
     <!-- <ss13Vue /> -->
-    <ss14Vue />
+    <!-- <ss14Vue /> -->
+    <ss15Vue />
   </div>
 </template>
 
