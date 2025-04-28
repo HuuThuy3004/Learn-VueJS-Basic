@@ -10,7 +10,8 @@
 // import ss9Vue from "./sessions/ss9-conditional/ss9.vue"
 // import ss10Vue from "./sessions/ss10-computed/ss10.vue"
 // import ss12Vue from "./sessions/ss12-onMounted/ss12.vue"
-import ss13Vue from "./sessions/ss13-onUnmounted/ss13.vue"
+// import ss13Vue from "./sessions/ss13-onUnmounted/ss13.vue"
+import ss14Vue from "./sessions/ss14-watchEffect/ss14.vue"
 </script>
 
 <template>
@@ -26,7 +27,8 @@ import ss13Vue from "./sessions/ss13-onUnmounted/ss13.vue"
     <!-- <ss9Vue /> -->
     <!-- <ss10Vue /> -->
     <!-- <ss12Vue /> -->
-    <ss13Vue />
+    <!-- <ss13Vue /> -->
+    <ss14Vue />
   </div>
 </template>
 
